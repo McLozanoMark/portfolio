@@ -888,6 +888,13 @@ img, svg {
   font-weight: var(--m3-type-title-small-weight);
   letter-spacing: var(--m3-type-title-small-track);
 }
+.m3-brand__name {
+  font-family: var(--m3-font-heading), sans-serif;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: 400;
+  letter-spacing: inherit;
+}
 .m3-app-bar__actions {
   margin-left: auto;
   display: flex;
@@ -1508,6 +1515,12 @@ button, a {
   line-height: var(--m3-type-label-large-line);
   letter-spacing: var(--m3-type-label-large-track);
 }
+.m3-brand__mark--image {
+  display: block;
+  border-radius: 50%;
+  background: transparent;
+  object-fit: cover;
+}
 .m3-quick-nav {
   display: flex;
   align-items: center;
@@ -1543,6 +1556,9 @@ button, a {
   width: min(100%, var(--m3-page-max));
   margin-inline: auto;
   padding: 0 var(--m3-page-gutter) 80px;
+}
+.m3-page > .m3-hero:first-child {
+  margin-block-start: var(--m3-space-16);
 }
 .m3-type-display-medium {
   font-size: var(--m3-type-display-medium-size);
